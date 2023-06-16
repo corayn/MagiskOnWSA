@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - 'README.md'
   workflow_dispatch:
-    inputs:
+    inputs:"https://github.com/opengapps/opengapps/wiki#variants"
       arch:
         description: "Build arch"
         required: true
